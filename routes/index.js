@@ -6,7 +6,7 @@ var router = express.Router();
 import { dogSay, catSay } from './testEs6Export'; //导出了 export 方法 
 import m from './testEs6Export';  //导出了 export default 
 
-import * as testModule from './testEs6Export';
+import * as testModule from './testEs6Export'; //* as export集合成对象导出
 
 
 
